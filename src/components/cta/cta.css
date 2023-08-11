@@ -1,0 +1,30 @@
+.gpt3__cat{
+    background: var(--gradient-bar);
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.gpt3__cat div span{
+    font-size: 12px;
+    font-weight: 400;
+}
+.gpt3__cat div p{
+    font-size: 24px;
+    font-weight: 700;
+}
+.gpt3__cat button{
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+@media (max-width:550px) {
+    .gpt3__cat {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

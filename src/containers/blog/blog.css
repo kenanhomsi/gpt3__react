@@ -1,0 +1,29 @@
+.gpt3__blog{
+    margin: 6rem 6rem !important;
+}
+.gpt3__blog-down{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: auto;
+    grid-template-areas: 'im_1 i_2 i_3'
+    'im_1 i_4 i_5';
+    gap:10px;
+}
+.gpt3__blog-top{
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    padding: 4rem 0;
+}
+@media (max-width:550px) {
+    .gpt3__blog-top {
+        font-size: 25px;
+    }
+    .gpt3__blog-down {
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

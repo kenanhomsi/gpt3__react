@@ -1,0 +1,103 @@
+.gpt3_wahtgpt{
+    font-family: var(--font-family);
+    background: rgb(22,51,82);
+background: linear-gradient(29deg, rgba(22,51,82,1) 0%, rgba(15,66,121,1) 100%);
+    color: #81AFDD;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.gpt3_whatgpt-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+}
+.gpt3_whatgpt-top h2{
+    width: 25%;
+}
+.gpt3_whatgpt-top p{
+    width: 75%;
+    line-height: 25px;
+}
+.gpt3_whatgpt-h2{
+    color: white;
+    position: relative;
+}
+.gpt3_whatgpt-h2::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: rgb(180,109,255);
+    background: linear-gradient(51deg, rgba(180,109,255,1) 0%, rgba(244,152,103,1) 100%);
+}
+.gpt3_whatgpt-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gpt3_whatgpt-mid_bold{
+    width: 50%;
+    font-size: 35px;
+    font-weight: 500;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gpt3_whatgpt-mid p{
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gpt3_whatgpt-buttom{
+    display: flex;
+    justify-content: space-between;
+}
+.gpt3_whatgpt-buttom div{
+    width: 30%;
+}
+.gpt3_whatgpt-buttom h2{
+    margin-bottom: 35px;
+}
+.gpt3_whatgpt-buttom p{
+    line-height: 1.8;
+}
+@media (max-width:820px) {
+    .gpt3_wahtgpt{
+        padding: 2rem !important;
+    }
+    
+}
+@media (max-width:550px) {
+    
+.gpt3_whatgpt-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.gpt3_whatgpt-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.gpt3_whatgpt-mid_bold {
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.gpt3_whatgpt-top h2 {
+    width:100%
+}
+.gpt3_whatgpt-buttom {
+    flex-direction: column;
+}
+.gpt3_whatgpt-buttom div {
+width: 100%;
+margin-bottom: 15px;
+}
+}
