@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gpt3__react/static/css/main.4ab3c5ef.css",
+    "main.js": "/gpt3__react/static/js/main.9c05d462.js",
+    "static/media/possibilities.png": "/gpt3__react/static/media/possibilities.e685de02939616d109da.png",
+    "static/media/1.png": "/gpt3__react/static/media/1.b8c594107c0678715afa.png",
+    "static/media/4.png": "/gpt3__react/static/media/4.2f7565c893499d0f39f0.png",
+    "static/media/5.png": "/gpt3__react/static/media/5.e2cd2c3bcda87df5181f.png",
+    "static/media/2.png": "/gpt3__react/static/media/2.4575fb47b66fd76940b0.png",
+    "static/media/header.png": "/gpt3__react/static/media/header.c3cce7c61cda3c2c4614.png",
+    "static/media/3.png": "/gpt3__react/static/media/3.7e6e7449643a94d7b978.png",
+    "static/media/people.png": "/gpt3__react/static/media/people.2cfdf724680e3ce7e868.png",
+    "static/media/dropbox.png": "/gpt3__react/static/media/dropbox.74056b966ce8bd5829b6.png",
+    "static/media/altaa.png": "/gpt3__react/static/media/altaa.b300970d4dad69eef066.png",
+    "static/media/logo.svg": "/gpt3__react/static/media/logo.ba31aca15541b1582f31de8d9b1d37fa.svg",
+    "index.html": "/gpt3__react/index.html",
+    "main.4ab3c5ef.css.map": "/gpt3__react/static/css/main.4ab3c5ef.css.map",
+    "main.9c05d462.js.map": "/gpt3__react/static/js/main.9c05d462.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ab3c5ef.css",
+    "static/js/main.9c05d462.js"
+  ]
+}
